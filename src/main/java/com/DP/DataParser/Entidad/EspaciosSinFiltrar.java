@@ -8,7 +8,12 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.vividsolutions.jts.geom.Geometry;
 
-
+/*
+ * Los nombres de los atributos aparecen cortados porque
+ * el nombre de los campos con los que se relacionan
+ * en la base de datos han quedado limitados a diez
+ * caracteres.
+ */
 @Entity
 @Table(name = "espacios_sin_filtrar")
 public class EspaciosSinFiltrar {
